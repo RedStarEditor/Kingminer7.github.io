@@ -1,6 +1,6 @@
 ---
 name: Not Listed
-about: Create a request not already available. **No chatrooms.**
+about: Create a request not already available. No chatrooms.
 title: Not Listed
 labels: ''
 assignees: ''
