@@ -3,6 +3,7 @@
    <body>
       <script>
          setTimeout(function(){
+            let params = new URLSearchParams(location.search);
             window.location.href = "discord.gg/" + params.get('id');
          }, 5000);
       </script>
