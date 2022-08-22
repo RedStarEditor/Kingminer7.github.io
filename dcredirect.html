@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html>
+   <header>
+      
+   </header>
    <body>
       <script>
          setTimeout(function(){
             let params = new URLSearchParams(location.search);
-            window.location.href = "discord.gg/" + params.get('id');
-         }, 5000);
+            window.location.href = "https://discord.gg/" + params.get('id');
+         }, 2000);
       </script>
-      <p>Web page redirects after 5 seconds.</p>
+      <p>Web page redirects after 2 seconds.</p>
    </body>
 </html>
