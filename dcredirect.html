@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html>
-   <head>
-      <title>HTML Meta Tag</title>
-      <script>
-        let params = new URLSearchParams(location.search);
-        window.location.replace(`discord.gg/${params.get('id')});
-     </script>
-   </head>
    <body>
-      <p>Redirecting to another URL</p>
+      <script>
+         setTimeout(function(){
+            window.location.href = "discord.gg/" + params.get('id');
+         }, 5000);
+      </script>
+      <p>Web page redirects after 5 seconds.</p>
    </body>
 </html>
