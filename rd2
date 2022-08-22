@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+   <header>
+      <title>Discord Redirect</title>
+   </header>
+   <body>
+      <script>
+         setTimeout(function(){
+            let params = new URLSearchParams(location.search);
+            window.location.href = "https://discord.gg/v7TgV3k4tJ";
+         }, 2000);
+      </script>
+      <p>Redirecting in 2 seconds.</p>
+   </body>
+</html>
