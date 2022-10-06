@@ -1,9 +1,5 @@
-# [Kingminer7.github.io](https://Kingminer7.github.io)
+# [My site](https://kingminer7.github.io)
+This is my website. I'm in the process of revamping it to look more formal.
 
-My website, i guess.
-
-Includes:
-
-[My platformer game (GitHub Link)](https://github.com/kingminer7/platformer)
-
-[My platformer game (Website Link)](https://kingminer7.github.io/platformer)
+# [Bots](https://kingminer7.github.io/bots)
+Where you can invite all of the bots I've created.
