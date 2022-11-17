@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <script>
+      function filter(message) {
+        var n = "";
+        var split = message.split("");
+        for (let i = 0; i < split.length; i++) {
+          var current = split[i];
+          if (split[i] == "a") {
+            current = "n";
+          } else if (split[i] == "b") {
+            current = "o";
+          } else if (split[i] == "c") {
+            current = "p";
+          } else if (split[i] == "d") {
+            current = "q";
+          } else if (split[i] == "e") {
+            current = "r";
+          } else if (split[i] == "f") {
+            current = "s";
+          } else if (split[i] == "g") {
+            current = "t";
+          } else if (split[i] == "h") {
+            current = "u";
+          } else if (split[i] == "i") {
+            current = "v";
+          } else if (split[i] == "j") {
+            current = "w";
+          } else if (split[i] == "k") {
+            current = "x";
+          } else if (split[i] == "l") {
+            current = "y";
+          } else if (split[i] == "m") {
+            current = "z";
+          } else if (split[i] == "n") {
+            current = "a";
+          } else if (split[i] == "o") {
+            current = "b";
+          } else if (split[i] == "p") {
+            current = "c";
+          } else if (split[i] == "q") {
+            current = "d";
+          } else if (split[i] == "r") {
+            current = "e";
+          } else if (split[i] == "s") {
+            current = "f";
+          } else if (split[i] == "t") {
+            current = "g";
+          } else if (split[i] == "u") {
+            current = "h";
+          } else if (split[i] == "v") {
+            current = "i";
+          } else if (split[i] == "w") {
+            current = "j";
+          } else if (split[i] == "x") {
+            current = "k";
+          } else if (split[i] == "y") {
+            current = "l";
+          } else if (split[i] == "z") {
+            current = "m";
+          } else if (split[i] == "A") {
+            current = "N";
+          } else if (split[i] == "B") {
+            current = "O";
+          } else if (split[i] == "C") {
+            current = "P";
+          } else if (split[i] == "D") {
+            current = "Q";
+          } else if (split[i] == "E") {
+            current = "R";
+          } else if (split[i] == "F") {
+            current = "S";
+          } else if (split[i] == "G") {
+            current = "T";
+          } else if (split[i] == "H") {
+            current = "U";
+          } else if (split[i] == "I") {
+            current = "V";
+          } else if (split[i] == "J") {
+            current = "W";
+          } else if (split[i] == "K") {
+            current = "X";
+          } else if (split[i] == "L") {
+            current = "Y";
+          } else if (split[i] == "M") {
+            current = "Z";
+          } else if (split[i] == "N") {
+            current = "A";
+          } else if (split[i] == "O") {
+            current = "B";
+          } else if (split[i] == "P") {
+            current = "C";
+          } else if (split[i] == "Q") {
+            current = "D";
+          } else if (split[i] == "R") {
+            current = "E";
+          } else if (split[i] == "S") {
+            current = "F";
+          } else if (split[i] == "T") {
+            current = "G";
+          } else if (split[i] == "U") {
+            current = "H";
+          } else if (split[i] == "V") {
+            current = "I";
+          } else if (split[i] == "W") {
+            current = "J";
+          } else if (split[i] == "X") {
+            current = "K";
+          } else if (split[i] == "Y") {
+            current = "L";
+          } else if (split[i] == "Z") {
+            current = "M";
+          }
+          n += current;
+        }
+
+        return n;
+      }
+      var old = prompt("What to filter?");
+      prompt("Your text is... ", filter(old));
+    </script>
+  </body>
+</html>
