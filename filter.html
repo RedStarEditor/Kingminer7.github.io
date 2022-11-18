@@ -4,6 +4,7 @@
     <script>
       function filter(message) {
         var n = "";
+        if(message == null ) location.reload();
         var split = message.split("");
         for (let i = 0; i < split.length; i++) {
           var current = split[i];
@@ -117,7 +118,7 @@
 
         navigator.clipboard.writeText(n);
 
-        reload()
+        location.reload()
       }
       var old = prompt("What to filter?");
       filter(old)
