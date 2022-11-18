@@ -4,7 +4,7 @@
     <script>
       function filter(message) {
         var n = "";
-        if(message == null ) location.reload();
+        if(message == null ) return;
         var split = message.split("");
         for (let i = 0; i < split.length; i++) {
           var current = split[i];
