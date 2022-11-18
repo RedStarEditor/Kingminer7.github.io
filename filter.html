@@ -115,10 +115,11 @@
           n += current;
         }
 
-        return n;
+        navigator.clipboard.writeText(n);
+
+        prompt("What to filter?")
       }
       var old = prompt("What to filter?");
-      prompt("Your text is... ", filter(old));
     </script>
   </body>
 </html>
