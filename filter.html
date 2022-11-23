@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
   <body>
@@ -116,9 +117,9 @@
           n += current;
         }
 
-        navigator.clipboard.writeText(n);
+        setTimeout(() => {  navigator.clipboard.writeText(n).then(() => {location.reload();});}, 1000);
 
-        location.reload()
+        
       }
       var old = prompt("What to filter?");
       filter(old)
